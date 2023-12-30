@@ -28,6 +28,9 @@ requirements:
     - scipy >=1.7.0
     - sunpy >=5.0.0
     - sunraster >=0.4.0
+    - mpl_animators
+    - matplotlib
+    - packaging
 
 test:
   imports:
