@@ -29,7 +29,7 @@ requirements:
     - sunpy >=5.0.0
     - sunraster >=0.4.0
     - mpl_animators
-    - matplotlib
+    - matplotlib-base
     - packaging
 
 test:
