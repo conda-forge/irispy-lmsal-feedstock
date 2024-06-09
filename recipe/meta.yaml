@@ -1,13 +1,13 @@
 {% set name = "irispy-lmsal" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/irispy-lmsal-{{ version }}.tar.gz
-  sha256: b5b6c23e51cd4ebcf30f598a00e6509cd196c86428030202a1b5f1a0e0841f15
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: f6ba41a23f93d96cad354961390163d5aca68a2bebc189dc65f9fff39a861de7
 
 build:
   noarch: python
