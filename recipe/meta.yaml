@@ -1,5 +1,5 @@
 {% set name = "irispy-lmsal" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 07dc36318be2392b36095abc3efdb71d4dd3e8f21426b648536248d6e36a2ae2
+  sha256: 221c22b55c80289997fdf50f2243e442e83c14c169ecbb68ebcff6a56b96fa6f
 
 build:
   noarch: python
