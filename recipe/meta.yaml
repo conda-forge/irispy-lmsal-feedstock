@@ -24,14 +24,11 @@ requirements:
   run:
     - python >={{ python_min }}
     - dkist >=1.0.0
-    - ndcube >=2.1.2
+    - ndcube >=2.3.0
     - pandas >=1.3.3
     - scipy >=1.7.0
-    - sunpy >=5.0.0
+    - sunpy >=6.1.0
     - sunraster >=0.4.0
-    - mpl_animators
-    - matplotlib-base
-    - packaging
 
 test:
   imports:
