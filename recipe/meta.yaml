@@ -1,5 +1,5 @@
 {% set name = "irispy-lmsal" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 95004f72cd64b9eb8a0d96c4e7d179a36113f8112b62306c9d6588843e94b954
+  sha256: 03c25076146e9b586c896e3909f04163fa5f094cf8316d674fbc454ebc6667e8
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
+    - mpl_animators >=1.2.3
     - dkist >=1.0.0
     - ndcube >=2.3.0
     - pandas >=1.3.3
