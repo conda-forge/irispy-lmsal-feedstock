@@ -44,7 +44,7 @@ about:
   home: https://iris.lmsal.com/
   summary: Provides tools to read in and analyze data from the IRIS solar-observing satellite.
   license: BSD-3-Clause
-  license_file: LICENSE.rst
+  license_file: licenses/LICENSE.rst
 
 extra:
   recipe-maintainers:
