@@ -31,6 +31,7 @@ requirements:
     - scipy >=1.17.0
     - sunpy >=7.1.0
     - sunraster >=0.7.0
+    - ffmpeg
 
 test:
   imports:
