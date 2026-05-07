@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - astropy >=7.2.0
+    - astropy-base >=7.2.0
     - dkist >=1.17.0
     - mpl_animators >=1.2.0
     - ndcube >=2.4.0
