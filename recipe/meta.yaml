@@ -33,9 +33,6 @@ requirements:
     - scipy >=1.17.0
     - sunpy >=7.1.0
     - sunraster >=0.7.0
-    - ffmpeg
-    - astroscrappy
-    - rsliding
 
 test:
   imports:
@@ -49,6 +46,8 @@ test:
     - python {{ python_min }}
     - pytest-astropy
     - pytest-mpl
+    - ffmpeg
+    - astroscrappy
 
 about:
   home: https://iris.lmsal.com/
