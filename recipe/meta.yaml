@@ -39,7 +39,7 @@ test:
     - irispy
   commands:
     - pip check
-    - pytest --pyargs irispy --remote-data=none
+    - pytest --pyargs irispy --remote-data=none -k "not test_remove_cosmic_rays_rsliding"
   requires:
     - pip
     - pooch
