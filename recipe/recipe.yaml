@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: irispy-lmsal
-  version: "0.9.0"
+  version: "0.9.1"
   python_min: "3.12"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 520d1c0a3b415feb41890a8cd41351fea7a2a3aafb2c70b47627619f38bc7253
+  sha256: b3efb3049de2ba736dca5870126d01237359a10b2ea611100fbbb8c26882baca
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
